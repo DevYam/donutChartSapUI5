@@ -1,0 +1,17 @@
+<mvc:View
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:m="sap.m"
+        xmlns="sap.suite.ui.microchart"
+        controllerName="test1234.controller.Main">
+    <m:FlexBox width="20rem" height="10rem" alignItems="left" justifyContent="SpaceBetween">
+        <m:items>
+            <InteractiveDonutChart selectionChanged="onSelectionChanged">
+                <segments>
+                    <InteractiveDonutChartSegment label="Implementation Phase" value="40.0" displayedValue="40.0%"/>
+                    <InteractiveDonutChartSegment label="Design Phase" value="21.5" displayedValue="21.5%"/>
+                    <InteractiveDonutChartSegment label="Test Phase" value="38.5" displayedValue="38.5%"/>
+                </segments>
+            </InteractiveDonutChart>
+        </m:items>
+    </m:FlexBox>
+</mvc:View>
